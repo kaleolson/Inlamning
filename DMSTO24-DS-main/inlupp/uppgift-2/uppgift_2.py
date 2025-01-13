@@ -10,5 +10,5 @@ def sum_list(numbers: list) -> int:
         summan = summan + num
     return summan
 
-print(sum_list([-1, -2, -3]))
+#print(sum_list([-1, -2, -3]))
 # sum_list([1, 2, 3])
