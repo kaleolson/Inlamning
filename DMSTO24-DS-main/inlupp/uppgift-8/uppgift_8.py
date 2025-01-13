@@ -6,7 +6,7 @@ def count_letters(string):
     
     # Loopa genom varje tecken i strängen
     for char in string.lower():
-        # Vi räknar endast med bokstäver
+        # Kolla så att det bara är bokstäver
         if char.isalpha():
             if char in letter_count:
                 letter_count[char] += 1
